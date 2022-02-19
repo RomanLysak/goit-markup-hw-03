@@ -1,0 +1,250 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /*світла тема тексту*/
+  --white-txt-clr: #ffffff;
+  /*темна тема тексту*/
+  --dark-txt-clr: #212121;
+  /* фону темна тема*/
+  --darkc-fone-clr: #2f303a;
+  /*фону світла тема*/
+  --light-fone-clr: #e5e5e5;
+}
+body {
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.header-logo-second {
+  color: #000000;
+}
+.header {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.address-info-first {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.address-info-first:hover {
+  color: #2196f3;
+}
+.header-link:hover {
+  color: #2196f3;
+}
+.header-link:focus {
+  color: #2196f3;
+}
+.navigation {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-address {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.hero {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-first-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.88;
+
+  color: #ffffff;
+}
+.hero-first-button {
+  background: #2196f3;
+}
+.hero-first-section {
+  background: #2f303a;
+}
+.information {
+  background-color: #e5e5e5;
+}
+.information-full-descripton {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.information-full-advertisement {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.team {
+  background: #f5f4fa;
+}
+.team-names {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-professions .team-representation {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.hero-buttons {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.hero-examples:hover {
+  color: #2196f3;
+}
+.hero-examples {
+  cursor: pointer;
+}
+.hero-examples:focus {
+  color: #2196f3;
+}
+.hero-examples {
+  cursor: pointer;
+  background-color: transparent;
+}
+.hero-paints {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-paints-works {
+}
+.hero-paints-text {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.hero-paints-info {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.footer-logo-second {
+  color: #ffffff;
+}
+.footer-adress {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-address-info-inmap {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-address-info {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
